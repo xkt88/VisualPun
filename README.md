@@ -58,5 +58,5 @@ Contact: please open a GitHub issue for questions or troubleshooting.
 
 
 case study Images
-![0](https://github.com/user-attachments/assets/cc6e8c2e-b0b1-4af1-8561-b42115a14560)
-![1](https://github.com/user-attachments/assets/38a7c1dd-3ac8-4918-9e62-54f0bb4b958d)
+
+![WPS拼图0(1)(1)](https://github.com/user-attachments/assets/800f6a82-efd6-4667-8203-3b84c8dd680f)![WPS拼图1(1)(1)](https://github.com/user-attachments/assets/f3f74cc9-bf63-4784-a4d0-4406ed811523)
