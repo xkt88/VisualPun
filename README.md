@@ -15,9 +15,9 @@ This repository accompanies the paper “Visual Puns from Idioms: An Iterative L
    - an LLM (prompt generation),
    - a T2IM (image synthesis),
    - an MLLM (idiom recognition/feedback).
-   The paper fixes the T2IM to Qwen‑Image (1024×1024) to isolate LLM/MLLM effects [[1]].
+   The paper fixes the T2IM to Qwen‑Image (1024×1024) to isolate LLM/MLLM effects .
 3) Run `1 Iterative Pipeline.ipynb` to (re)generate images.
-   - Choose idioms, backends, and `max_iterations` (default 5) [[1]].
+   - Choose idioms, backends, and `max_iterations` (default 5) .
    - Outputs are saved under `img/`.
 4) Run `2 Case Study.ipynb` to reproduce the 50‑idiom, 6‑T2IM comparison.
    - Results are written to `case study/`.
@@ -32,14 +32,14 @@ Tips
 - Case‑study subset (50 idioms) with prompts/images lives in `case study/`.
 
 ## Method summary (paper)
-- Given an idiom, the system: (i) composes a detailed visual prompt, (ii) synthesizes an image, (iii) infers the idiom from the image, and (iv) refines the prompt; it stops on a match or after 5 iterations [[1]].  
-- Images are generated at 1024×1024 with a fixed T2IM (Qwen‑Image) in all experiments to focus on LLM/MLLM effects [[1]].  
-- The case study shows multiple modern T2IMs map to the same target idiom under identical, detailed prompts; thus T2IM choice is secondary under these conditions [[1]].
+- Given an idiom, the system: (i) composes a detailed visual prompt, (ii) synthesizes an image, (iii) infers the idiom from the image, and (iv) refines the prompt; it stops on a match or after 5 iterations.  
+- Images are generated at 1024×1024 with a fixed T2IM (Qwen‑Image) in all experiments to focus on LLM/MLLM effects.  
+- The case study shows multiple modern T2IMs map to the same target idiom under identical, detailed prompts; thus T2IM choice is secondary under these conditions.
 
 ## Results highlights (paper)
-- MLLM choice is the primary driver of recognition accuracy; GPT MLLM is strongest overall, followed by Gemini, while the best open‑source MLLM (Gemma) is competitive with some closed models [[1]].  
-- For prompt generation, Claude achieves the best average performance across MLLM partners [[1]].  
-- Iterative refinement helps most within 2–3 rounds, with diminishing returns thereafter [[1]].
+- MLLM choice is the primary driver of recognition accuracy; GPT MLLM is strongest overall, followed by Gemini, while the best open‑source MLLM (Gemma) is competitive with some closed models.  
+- For prompt generation, Claude achieves the best average performance across MLLM partners.  
+- Iterative refinement helps most within 2–3 rounds, with diminishing returns thereafter.
 
 
 
