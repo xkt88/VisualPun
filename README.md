@@ -1,6 +1,6 @@
 # Visual Puns from Idioms: An Iterative LLM–T2IM–MLLM Framework
 
-This repository accompanies the paper “Visual Puns from Idioms: An Iterative LLM–T2IM–MLLM Framework.” It implements the iterative loop, releases the 1,000‑idiom image set, and provides a 50‑idiom, 6‑T2IM case study. The pipeline iterates prompt → generate → infer → refine and stops on a correct recognition or after 5 steps [[1]].
+This repository accompanies the paper “Visual Puns from Idioms: An Iterative LLM–T2IM–MLLM Framework.” It implements the iterative loop, releases the 1,000‑idiom image set, and provides a 50‑idiom, 6‑T2IM case study. The pipeline iterates prompt → generate → infer → refine and stops on a correct recognition or after 5 steps.
 
 ## Repository structure
 - `1 Iterative Pipeline.ipynb` — end‑to‑end notebook that generates images from idioms via the iterative LLM → T2IM → MLLM loop.  
@@ -41,22 +41,9 @@ Tips
 - For prompt generation, Claude achieves the best average performance across MLLM partners [[1]].  
 - Iterative refinement helps most within 2–3 rounds, with diminishing returns thereafter [[1]].
 
-## Citation
-If you use this repository, please cite the paper:
-
-Kelaiti Xiao, Liang Yang, Dongyu Zhang, Paerhati Tulajiang, and Hongfei Lin. “Visual Puns from Idioms: An Iterative LLM–T2IM–MLLM Framework.” ICASSP 2025. [[1]]
-
----
-
-Contact: please open a GitHub issue for questions or troubleshooting.
-
-[1]: ICASSP (28).pdf — paper text included in this repository.
-
-
-
-
 
 
 case study Images
 
-![WPS拼图0(1)(1)](https://github.com/user-attachments/assets/800f6a82-efd6-4667-8203-3b84c8dd680f)![WPS拼图1(1)(1)](https://github.com/user-attachments/assets/f3f74cc9-bf63-4784-a4d0-4406ed811523)
+![WPS拼图0(1)(1)](https://github.com/user-attachments/assets/800f6a82-efd6-4667-8203-3b84c8dd680f)
+![WPS拼图1(1)(1)](https://github.com/user-attachments/assets/f3f74cc9-bf63-4784-a4d0-4406ed811523)
