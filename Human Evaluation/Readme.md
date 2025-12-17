@@ -56,7 +56,7 @@ Annotators are shown an image and asked to identify which idiom the image repres
 
 Each annotation screen displays:
 
-![platform](https://github.com/user-attachments/assets/f4c47165-b64a-4f82-a795-094dc80799a1)
+<img src="https://github.com/user-attachments/assets/f4c47165-b64a-4f82-a795-094dc80799a1" alt="platform" width="600">
 
 
 - The generated visual pun image (centered, 512x512 display size)
