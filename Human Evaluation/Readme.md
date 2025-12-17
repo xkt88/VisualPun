@@ -1,4 +1,4 @@
-```markdown
+
 # Human Evaluation Protocol for Visual Pun Recognition
 
 ## Overview
