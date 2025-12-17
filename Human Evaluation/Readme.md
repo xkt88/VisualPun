@@ -56,7 +56,8 @@ Annotators are shown an image and asked to identify which idiom the image repres
 
 Each annotation screen displays:
 
-![platform](https://github.com/user-attachments/assets/c346dd1b-fe2b-4039-bd55-3b3cebe0a8c5)
+![platform](https://github.com/user-attachments/assets/f4c47165-b64a-4f82-a795-094dc80799a1)
+
 
 - The generated visual pun image (centered, 512x512 display size)
 - A text input field labeled "What English idiom does this image represent?"
