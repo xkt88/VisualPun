@@ -1,4 +1,3 @@
-
 # Human Evaluation Protocol for Visual Pun Recognition
 
 ## Overview
@@ -60,7 +59,6 @@ Each annotation screen displays:
 [PLACEHOLDER IMAGE: Screenshot of annotation interface showing:
 - The generated visual pun image (centered, 512x512 display size)
 - A text input field labeled "What English idiom does this image represent?"
-- An optional confidence dropdown (High/Medium/Low)
 - A notes field for optional comments
 - Navigation buttons (Previous / Next / Submit)]
 
@@ -81,7 +79,6 @@ You will be shown a series of images. Each image is designed to visually represe
 2. If you are unsure, provide your best guess.
 3. If you cannot identify any idiom, type "unrecognizable."
 4. Do not use external resources (e.g., internet search).
-5. Indicate your confidence level (High / Medium / Low).
 
 **Time:** There is no strict time limit, but each image should take approximately 30-60 seconds.
 
@@ -185,7 +182,6 @@ We compute correlation between human judgment and MLLM-based automatic evaluatio
 |--------|-------------|
 | **Agreement rate** | Percentage of images where human majority vote matches MLLM judgment |
 | **Cohen's kappa** | Agreement correcting for chance (human majority vs. MLLM) |
-| **Pearson correlation** | Correlation between human accuracy (0-3 correct) and MLLM confidence scores (if available) |
 
 ### 6.4 Error Analysis
 
@@ -209,7 +205,6 @@ All responses are recorded in `annotations_raw.csv`:
 | `response_raw` | Annotator's original response |
 | `response_normalized` | Response after canonicalization |
 | `is_correct` | Boolean: whether response matches target |
-| `confidence` | Annotator's self-reported confidence |
 | `timestamp` | Annotation timestamp |
 | `notes` | Optional annotator comments |
 
@@ -231,8 +226,6 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 ### 8.1 Inter-Annotator Agreement
 
-[TABLE PLACEHOLDER: Fleiss' kappa and pairwise Cohen's kappa values]
-
 | Metric | Value |
 |--------|-------|
 | Fleiss' κ (all three annotators) | [To be filled] |
@@ -242,8 +235,6 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 ### 8.2 Human Recognition Accuracy
 
-[TABLE PLACEHOLDER: Accuracy statistics]
-
 | Metric | Value |
 |--------|-------|
 | Mean individual accuracy | [To be filled]% |
@@ -252,16 +243,12 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 ### 8.3 Human–MLLM Correlation
 
-[TABLE PLACEHOLDER: Correlation between human and automatic evaluation]
-
 | Metric | Value |
 |--------|-------|
 | Agreement rate | [To be filled]% |
 | Cohen's κ (human majority vs MLLM) | [To be filled] |
 
 ### 8.4 Error Analysis
-
-[TABLE PLACEHOLDER: Confusion matrix between human and MLLM judgments]
 
 |  | MLLM Correct | MLLM Incorrect |
 |--|--------------|----------------|
