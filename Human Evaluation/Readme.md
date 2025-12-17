@@ -59,7 +59,6 @@ Each annotation screen displays:
 [PLACEHOLDER IMAGE: Screenshot of annotation interface showing:
 - The generated visual pun image (centered, 512x512 display size)
 - A text input field labeled "What English idiom does this image represent?"
-- A notes field for optional comments
 - Navigation buttons (Previous / Next / Submit)]
 
 ### 3.3 Instructions Provided to Annotators
@@ -206,7 +205,7 @@ All responses are recorded in `annotations_raw.csv`:
 | `response_normalized` | Response after canonicalization |
 | `is_correct` | Boolean: whether response matches target |
 | `timestamp` | Annotation timestamp |
-| `notes` | Optional annotator comments |
+
 
 ### 7.2 Aggregated Data Format
 
