@@ -286,7 +286,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | `sampled_idioms.csv` | List of 100 randomly sampled idiom IDs and strings |
 | `annotations_raw.csv` | Raw annotation data |
 | `annotations_summary.csv` | Aggregated results per image |
-| `analysis.py` | Script to compute all metrics |
+| `Human Evaluation.ipynb` |  Complete batch processing task |
 | `images/` | Directory containing the 100 sampled images |
 
 ## References
