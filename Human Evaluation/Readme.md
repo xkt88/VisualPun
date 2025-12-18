@@ -284,7 +284,6 @@ Summary statistics are provided in `annotations_summary.csv`:
 |------|-------------|
 | `README.md` | This protocol document |
 | `sampled_idioms.csv` | List of 100 randomly sampled idiom IDs and strings |
-| `idiom_variants.json` | Mapping of equivalent idiom phrasings |
 | `annotations_raw.csv` | Raw annotation data |
 | `annotations_summary.csv` | Aggregated results per image |
 | `analysis.py` | Script to compute all metrics |
