@@ -57,7 +57,7 @@ Annotators are shown an image and asked to identify which idiom the image repres
 
 The updated Idiom Annotator interface provides a split-view workspace designed for high-efficiency labeling and easy dataset navigation.
 
-![practice](https://github.com/user-attachments/assets/c277ffd5-01cf-4089-957c-a994ce53cb21)
+![platform](https://github.com/user-attachments/assets/b64d8195-9ea3-4b5b-be96-0fcf4e217bf4)
 
 
 The interface consists of the following components:
@@ -96,7 +96,8 @@ You will be shown a series of images. Each image is designed to visually represe
 
 Before the main annotation, annotators complete 5 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
 
-![practice](https://github.com/user-attachments/assets/50354789-347e-43e9-96c6-1ee733d92fd6)
+![practice](https://github.com/user-attachments/assets/03904b59-cd4f-468a-aa28-2fc4dfd9e4f4)
+
 
 Practice idioms used:
 1. "raining cats and dogs"
