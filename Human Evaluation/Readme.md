@@ -96,7 +96,8 @@ You will be shown a series of images. Each image is designed to visually represe
 
 Before the main annotation, annotators complete 5 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
 
-![practice](https://github.com/user-attachments/assets/03904b59-cd4f-468a-aa28-2fc4dfd9e4f4)
+![practice](https://github.com/user-attachments/assets/76930023-f6de-483f-ad05-b1e864ac66c6)
+
 
 
 Practice idioms used:
