@@ -261,6 +261,8 @@ Summary statistics are provided in `annotations_summary.csv`:
 | Agreement rate | 85.0% |
 | Cohen's κ (human majority vs MLLM) | 0.61 |
 
+MLLM-based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.61, 85% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
+
 ### 8.4 Error Analysis
 
 |  | MLLM Correct | MLLM Incorrect |
