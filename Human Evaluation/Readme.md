@@ -95,12 +95,15 @@ You will be shown a series of images. Each image is designed to visually represe
 
 Before the main annotation, annotators complete 5 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
 
+![practice](https://github.com/user-attachments/assets/50354789-347e-43e9-96c6-1ee733d92fd6)
+
 Practice idioms used:
 1. "raining cats and dogs"
 2. "elephant in the room"
 3. "piece of cake"
 4. "crocodile tears"
 5. "let the cat out of the bag"
+6. "break a leg"
 
 ## 4. Annotation Procedure
 
