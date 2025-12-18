@@ -52,16 +52,22 @@ For each sampled idiom, we use the final generated image from our iterative pipe
 
 Annotators are shown an image and asked to identify which idiom the image represents. This is designed as an **open-ended recognition task** (not multiple choice) to mirror our automatic evaluation setup.
 
+
 ### 3.2 Annotation Interface
 
-Each annotation screen displays:
+The updated Idiom Annotator interface provides a split-view workspace designed for high-efficiency labeling and easy dataset navigation.
 
 ![platform](https://github.com/user-attachments/assets/e152c9d2-4031-4d56-9f10-e6c5ab672bb1)
 
+The interface consists of the following components:
 
-- The generated visual pun image (centered, 512x512 display size)
-- A text input field labeled "What English idiom does this image represent?"
-- Navigation buttons (Previous / Next / Submit)]
+* **Thumbnail Navigation Grid (Left)**: A scrollable $10 \times 10$ grid displaying all images in the loaded folder. Completed annotations are marked with a large green checkmark for clear progress tracking.
+* **Active Editor Panel (Right)**:
+    * **Image Metadata**: Displays the current image file name and numerical progress (e.g., `44 / 100`).
+    * **Main Display**: The active visual pun image is centered for clear inspection.
+    * **Annotation Input**: A text field where users enter the identified English idiom. Changes are saved automatically to the browser's local storage upon navigation.
+* **Global Toolbar**: A persistent header containing the centered tool title and a **Download CSV** button to export the final $100$ ID/value pairs.
+* **Navigation Controls**: Includes **Previous** and **Submit & Next** buttons, along with keyboard support (Enter key) to iterate through the folder.
 
 ### 3.3 Instructions Provided to Annotators
 
