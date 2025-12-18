@@ -287,7 +287,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | `annotations_raw.csv` | Raw annotation data |
 | `annotations_summary.csv` | Aggregated results per image |
 | `Human Evaluation.ipynb` |  Complete batch processing task |
-| `images/` | Directory containing the 100 sampled images |
+| `sampled_images/` | Directory containing the 100 sampled images |
 
 ## References
 
