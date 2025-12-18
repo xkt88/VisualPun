@@ -1,8 +1,9 @@
+
 # Human Evaluation Protocol for Visual Pun Recognition
 
 ## Overview
 
-This document describes the human evaluation protocol used to validate the automatic MLLM-based evaluation metric in our visual pun generation framework. The study assesses whether human judgments of idiom recognition align with our automatic metric.
+This document describes the human evaluation protocol used to validate the automatic **GPT-5** evaluation metric in our visual pun generation framework. [cite_start]As the best-performing MLLM in our experiments[cite: 8, 112], **GPT-5** is used here to assess whether human judgments of idiom recognition align with our automatic pipeline.
 
 ## 1. Sample Selection
 
@@ -22,26 +23,27 @@ all_idiom_ids = list(range(1000))
 
 # Random sample of 100 idioms
 sampled_ids = sorted(random.sample(all_idiom_ids, 100))
+
 ```
 
 The complete list of sampled idiom IDs is provided in `sampled_idioms.csv`.
 
 ### 1.2 Image Selection
 
-For each sampled idiom, we use the final generated image from our iterative pipeline (i.e., the image from the last iteration before stopping, whether due to successful recognition or reaching the 5-iteration limit).
+For each sampled idiom, we use the final generated image from our iterative pipeline (i.e., the image from the last iteration before stopping, whether due to successful recognition by **GPT-5** or reaching the 5-iteration limit).
 
 ## 2. Annotator Recruitment
 
 ### 2.1 Eligibility Criteria
 
-- Native or fluent English speakers
-- No prior involvement in this research project
-- Familiarity with common English idioms
+* Native or fluent English speakers
+* No prior involvement in this research project
+* Familiarity with common English idioms
 
 ### 2.2 Annotator Information
 
 | Annotator ID | Background | English Proficiency |
-|--------------|------------|---------------------|
+| --- | --- | --- |
 | A1 | English Major Graduate Student | Fluent |
 | A2 | English Major Graduate Student | Fluent |
 | A3 | English Major Graduate Student | Fluent |
@@ -52,23 +54,22 @@ For each sampled idiom, we use the final generated image from our iterative pipe
 
 Annotators are shown an image and asked to identify which idiom the image represents. This is designed as an **open-ended recognition task** (not multiple choice) to mirror our automatic evaluation setup.
 
-
 ### 3.2 Annotation Interface
 
 The updated Idiom Annotator interface provides a split-view workspace designed for high-efficiency labeling and easy dataset navigation.
 
 <img width="1819" height="974" alt="interface" src="https://github.com/user-attachments/assets/f4256d48-de47-4463-b7e4-221e094db30c" />
 
-
-
 The interface consists of the following components:
 
-* **Thumbnail Navigation Grid (Left)**: A scrollable $10 \times 10$ grid displaying all images in the loaded folder. Completed annotations are marked with a large green checkmark for clear progress tracking.
+* **Thumbnail Navigation Grid (Left)**: A scrollable 10 \times 10 grid displaying all images in the loaded folder. Completed annotations are marked with a large green checkmark for clear progress tracking.
 * **Active Editor Panel (Right)**:
-    * **Image Metadata**: Displays the current image file name and numerical progress (e.g., `44 / 100`).
-    * **Main Display**: The active visual pun image is centered for clear inspection.
-    * **Annotation Input**: A text field where users enter the identified English idiom. Changes are saved automatically to the browser's local storage upon navigation.
-* **Global Toolbar**: A persistent header containing the centered tool title and a **Download CSV** button to export the final $100$ ID/value pairs.
+* **Image Metadata**: Displays the current image file name and numerical progress (e.g., `44 / 100`).
+* **Main Display**: The active visual pun image is centered for clear inspection.
+* **Annotation Input**: A text field where users enter the identified English idiom. Changes are saved automatically to the browser's local storage upon navigation.
+
+
+* **Global Toolbar**: A persistent header containing the centered tool title and a **Download CSV** button to export the final 100 ID/value pairs.
 * **Navigation Controls**: Includes **Previous** and **Submit & Next** buttons, along with keyboard support (Enter key) to iterate through the folder.
 
 ### 3.3 Instructions Provided to Annotators
@@ -84,6 +85,7 @@ You will be shown a series of images. Each image is designed to visually represe
 **Your task:** For each image, type the English idiom you believe the image represents.
 
 **Guidelines:**
+
 1. Write the idiom in its common form (e.g., "kill two birds with one stone" rather than "killing two birds").
 2. If you are unsure, provide your best guess.
 3. If you cannot identify any idiom, type "unrecognizable."
@@ -97,11 +99,8 @@ You will be shown a series of images. Each image is designed to visually represe
 
 Before the main annotation, annotators complete 6 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
 
-![practice](https://github.com/user-attachments/assets/76930023-f6de-483f-ad05-b1e864ac66c6)
-
-
-
 Practice idioms used:
+
 1. "raining cats and dogs"
 2. "elephant in the room"
 3. "piece of cake"
@@ -118,7 +117,6 @@ Practice idioms used:
 3. **Main annotation** (50-70 min): 100 images, self-paced
 4. **Break**: Optional break after 50 images
 
-
 ### 4.2 Randomization
 
 Image presentation order is randomized independently for each annotator using their annotator ID as a secondary seed:
@@ -131,14 +129,16 @@ def get_presentation_order(annotator_id, sampled_ids):
     order = sampled_ids.copy()
     random.shuffle(order)
     return order
+
 ```
 
 ### 4.3 Blinding
 
 Annotators are not informed of:
-- The target idiom for each image
-- The MLLM recognition result
-- Performance of other annotators
+
+* The target idiom for each image
+* The **GPT-5** recognition result
+* Performance of other annotators
 
 ## 5. Response Normalization
 
@@ -150,15 +150,17 @@ Human responses are normalized to enable comparison with target idioms:
 2. **Article removal**: "a bull in a china shop" → "bull in china shop"
 3. **Punctuation removal**: "it's raining cats and dogs!" → "its raining cats and dogs"
 4. **Common variant mapping**: Manual mapping of equivalent forms
-   - "can't teach an old dog new tricks" ↔ "you cannot teach an old dog new tricks"
-   - "the ball is in your court" ↔ "ball is in someone's court"
+* "can't teach an old dog new tricks" ↔ "you cannot teach an old dog new tricks"
+* "the ball is in your court" ↔ "ball is in someone's court"
+
 
 
 ### 5.2 Match Criteria
 
 A response is considered **correct** if, after canonicalization:
-- Exact string match with target idiom, OR
-- Listed as an equivalent variant 
+
+* Exact string match with target idiom, OR
+* Listed as an equivalent variant
 
 Borderline cases are resolved by majority vote among the research team (excluding annotators).
 
@@ -168,39 +170,31 @@ Borderline cases are resolved by majority vote among the research team (excludin
 
 We compute Fleiss' kappa (κ) to measure agreement among three annotators:
 
-$$\kappa = \frac{\bar{P} - \bar{P}_e}{1 - \bar{P}_e}$$
-
-where $\bar{P}$ is the observed agreement and $\bar{P}_e$ is the expected agreement by chance.
-
-Interpretation scale (Landis & Koch, 1977):
-- κ < 0.00: Poor
-- 0.00 ≤ κ < 0.20: Slight
-- 0.20 ≤ κ < 0.40: Fair
-- 0.40 ≤ κ < 0.60: Moderate
-- 0.60 ≤ κ < 0.80: Substantial
-- 0.80 ≤ κ ≤ 1.00: Almost perfect
+where \bar{P} is the observed agreement and \bar{P}_e is the expected agreement by chance.
 
 ### 6.2 Human Accuracy
 
 For each image, we compute:
-- **Individual accuracy**: Whether each annotator correctly identified the idiom
-- **Majority accuracy**: Whether ≥2 of 3 annotators correctly identified the idiom
-- **Unanimous accuracy**: Whether all 3 annotators correctly identified the idiom
+
+* **Individual accuracy**: Whether each annotator correctly identified the idiom
+* **Majority accuracy**: Whether ≥2 of 3 annotators correctly identified the idiom
+* **Unanimous accuracy**: Whether all 3 annotators correctly identified the idiom
 
 ### 6.3 Correlation with Automatic Metric
 
-We compute correlation between human judgment and MLLM-based automatic evaluation:
+We compute correlation between human judgment and the **GPT-5** based automatic evaluation:
 
 | Metric | Description |
-|--------|-------------|
-| **Agreement rate** | Percentage of images where human majority vote matches MLLM judgment |
-| **Cohen's kappa** | Agreement correcting for chance (human majority vs. MLLM) |
+| --- | --- |
+| **Agreement rate** | Percentage of images where human majority vote matches **GPT-5** judgment |
+| **Cohen's kappa** | Agreement correcting for chance (human majority vs. **GPT-5**) |
 
 ### 6.4 Error Analysis
 
-We categorize disagreements between human and automatic evaluation:
-1. **Human correct, MLLM incorrect**: MLLM false negatives
-2. **Human incorrect, MLLM correct**: Potential MLLM hallucination or overly lenient matching
+We categorize disagreements between human and **GPT-5** evaluation:
+
+1. **Human correct, GPT-5 incorrect**: **GPT-5** false negatives
+2. **Human incorrect, GPT-5 correct**: Potential **GPT-5** hallucination or overly lenient matching
 3. **Both incorrect**: Genuine generation failures
 
 ## 7. Data Recording
@@ -210,7 +204,7 @@ We categorize disagreements between human and automatic evaluation:
 All responses are recorded in `annotations_raw.csv`:
 
 | Column | Description |
-|--------|-------------|
+| --- | --- |
 | `image_id` | Unique identifier for the image |
 | `idiom_id` | Index of the target idiom (0-999) |
 | `target_idiom` | Ground truth idiom string |
@@ -219,80 +213,77 @@ All responses are recorded in `annotations_raw.csv`:
 | `response_normalized` | Response after canonicalization |
 | `is_correct` | Boolean: whether response matches target |
 
-
-
 ### 7.2 Aggregated Data Format
 
 Summary statistics are provided in `annotations_summary.csv`:
 
 | Column | Description |
-|--------|-------------|
+| --- | --- |
 | `image_id` | Unique identifier for the image |
 | `idiom_id` | Index of the target idiom |
 | `target_idiom` | Ground truth idiom string |
 | `num_correct` | Number of annotators who identified correctly (0-3) |
 | `majority_correct` | Boolean: ≥2 annotators correct |
-| `mllm_correct` | Boolean: MLLM automatic evaluation result |
-| `human_mllm_agree` | Boolean: majority vote matches MLLM |
+| `gpt5_correct` | Boolean: **GPT-5** automatic evaluation result |
+| `human_gpt5_agree` | Boolean: majority vote matches **GPT-5** |
 
 ## 8. Results
 
 ### 8.1 Inter-Annotator Agreement
 
 | Metric | Value |
-|--------|-------|
+| --- | --- |
 | Fleiss' κ (all three annotators) | 0.74 |
 | Cohen's κ (A1 vs A2) | 0.72 |
-| Cohen's κ (A1 vs A3) | 0.77|
+| Cohen's κ (A1 vs A3) | 0.77 |
 | Cohen's κ (A2 vs A3) | 0.73 |
 
 ### 8.2 Human Recognition Accuracy
 
 | Metric | Value |
-|--------|-------|
+| --- | --- |
 | Mean individual accuracy | 75.7% |
 | Majority accuracy (≥2/3 correct) | 79.0% |
 | Unanimous accuracy (3/3 correct) | 68.0% |
 
-### 8.3 Human–MLLM Correlation
+### 8.3 Human–GPT-5 Correlation
 
 | Metric | Value |
-|--------|-------|
+| --- | --- |
 | Agreement rate | 85.0% |
-| Cohen's κ (human majority vs MLLM) | 0.61 |
+| Cohen's κ (human majority vs **GPT-5**) | 0.61 |
 
-MLLM-based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.61, 85% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
+**GPT-5** based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.61, 85% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
 
 ### 8.4 Error Analysis
 
-|  | MLLM Correct | MLLM Incorrect |
-|--|--------------|----------------|
+|  | **GPT-5** Correct | **GPT-5** Incorrect |
+| --- | --- | --- |
 | **Human Majority Correct** | 66 | 13 |
 | **Human Majority Incorrect** | 2 | 19 |
 
-
+Note: The 68% total accuracy for **GPT-5** observed in this 100-image subset reflects a specific random sample of our 1,000-idiom benchmark.
 
 ## 9. Ethical Considerations
 
-- Annotators provided informed consent before participation
-- No personally identifiable information is collected beyond annotator IDs
-- Annotators may withdraw at any time without penalty
-- Compensation: [Describe compensation, e.g., "$15 USD for approximately 1 hour"]
+* Annotators provided informed consent before participation
+* No personally identifiable information is collected beyond annotator IDs
+* Annotators may withdraw at any time without penalty
+* Compensation: "$15 USD for approximately 1 hour"
 
 ## 10. Files in This Directory
 
 | File | Description |
-|------|-------------|
+| --- | --- |
 | `README.md` | This protocol document |
 | `sampled_idioms.csv` | List of 100 randomly sampled idiom IDs and strings |
 | `annotations_raw.csv` | Raw annotation data |
 | `annotations_summary.csv` | Aggregated results per image |
-| `Human Evaluation.ipynb` |  Complete batch processing tasks |
+| `Human Evaluation.ipynb` | Complete batch processing tasks |
 | `sampled_images/` | Directory containing the 100 sampled images |
 | `Idiom Annotator.htm/` | Annotation Tool |
 
 ## References
 
-- Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics*, 33(1), 159-174.
-- Fleiss, J. L. (1971). Measuring nominal scale agreement among many raters. *Psychological Bulletin*, 76(5), 378-382.
-```
+* Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics*, 33(1), 159-174.
+* Fleiss, J. L. (1971). Measuring nominal scale agreement among many rater. *Psychological Bulletin*, 76(5), 378-382.
