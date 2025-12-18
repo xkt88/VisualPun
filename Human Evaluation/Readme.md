@@ -42,9 +42,9 @@ For each sampled idiom, we use the final generated image from our iterative pipe
 
 | Annotator ID | Background | English Proficiency |
 |--------------|------------|---------------------|
-| A1 | [To be filled] | [Native/Fluent] |
-| A2 | [To be filled] | [Native/Fluent] |
-| A3 | [To be filled] | [Native/Fluent] |
+| A1 | English Major Graduate Student | Fluent |
+| A2 | English Major Graduate Student | Fluent |
+| A3 | English Major Graduate Student | Fluent |
 
 ## 3. Annotation Task Design
 
