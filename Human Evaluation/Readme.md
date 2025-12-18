@@ -206,6 +206,7 @@ All responses are recorded in `annotations_raw.csv`:
 | Column | Description |
 | --- | --- |
 | `image_id` | Unique identifier for the image |
+| `target_idiom` | Ground truth idiom string |
 | `annotator_id` | Annotator identifier (A1/A2/A3) |
 | `response_raw` | Annotator's original response |
 | `response_normalized` | Response after canonicalization |
@@ -218,6 +219,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | Column | Description |
 | --- | --- |
 | `image_id` | Unique identifier for the image |
+| `target_idiom` | Ground truth idiom string |
 | `num_correct` | Number of annotators who identified correctly (0-3) |
 | `majority_correct` | Boolean: ≥2 annotators correct |
 | `gpt5_correct` | Boolean: **GPT-5** automatic evaluation result |
