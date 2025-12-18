@@ -268,9 +268,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | **Human Majority Correct** | [n] | [n] |
 | **Human Majority Incorrect** | [n] | [n] |
 
-### 8.5 Qualitative Examples
 
-[PLACEHOLDER IMAGE: 2x2 grid showing example images from each cell of the confusion matrix above, with captions indicating target idiom, human responses, and MLLM response]
 
 ## 9. Ethical Considerations
 
