@@ -206,7 +206,7 @@ All responses are recorded in `annotations_raw.csv`:
 | Column | Description |
 | --- | --- |
 | `image_id` | Unique identifier for the image |
-| `idiom_id` | Index of the target idiom (0-999) |
+| `idiom_id` | Index of the target idiom (1-1000) |
 | `target_idiom` | Ground truth idiom string |
 | `annotator_id` | Annotator identifier (A1/A2/A3) |
 | `response_raw` | Annotator's original response |
