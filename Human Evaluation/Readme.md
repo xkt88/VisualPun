@@ -265,8 +265,8 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 |  | MLLM Correct | MLLM Incorrect |
 |--|--------------|----------------|
-| **Human Majority Correct** | 76 | 8 |
-| **Human Majority Incorrect** | 4 | 12 |
+| **Human Majority Correct** | 77 | 7 |
+| **Human Majority Incorrect** | 3 | 13 |
 
 
 
@@ -287,7 +287,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | `annotations_summary.csv` | Aggregated results per image |
 | `Human Evaluation.ipynb` |  Complete batch processing tasks |
 | `sampled_images/` | Directory containing the 100 sampled images |
-| `Idiom Annotator.htm/` | Annotation Interface |
+| `Idiom Annotator.htm/` | Annotation Tool |
 
 ## References
 
