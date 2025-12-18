@@ -94,7 +94,7 @@ You will be shown a series of images. Each image is designed to visually represe
 
 ### 3.4 Practice Round
 
-Before the main annotation, annotators complete 5 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
+Before the main annotation, annotators complete 6 practice examples (not from the sampled 100) to familiarize themselves with the task. Correct answers are revealed after the practice round.
 
 ![practice](https://github.com/user-attachments/assets/76930023-f6de-483f-ad05-b1e864ac66c6)
 
