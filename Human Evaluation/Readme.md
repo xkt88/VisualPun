@@ -116,7 +116,7 @@ Practice idioms used:
 2. **Practice round** (5 min): 5 practice images with feedback
 3. **Main annotation** (50-70 min): 100 images, self-paced
 4. **Break**: Optional break after 50 images
-5. **Debrief** (5 min): Optional feedback on task difficulty
+
 
 ### 4.2 Randomization
 
@@ -152,13 +152,12 @@ Human responses are normalized to enable comparison with target idioms:
    - "can't teach an old dog new tricks" ↔ "you cannot teach an old dog new tricks"
    - "the ball is in your court" ↔ "ball is in someone's court"
 
-The complete variant mapping is provided in `idiom_variants.json`.
 
 ### 5.2 Match Criteria
 
 A response is considered **correct** if, after canonicalization:
 - Exact string match with target idiom, OR
-- Listed as an equivalent variant in `idiom_variants.json`
+- Listed as an equivalent variant 
 
 Borderline cases are resolved by majority vote among the research team (excluding annotators).
 
@@ -218,7 +217,7 @@ All responses are recorded in `annotations_raw.csv`:
 | `response_raw` | Annotator's original response |
 | `response_normalized` | Response after canonicalization |
 | `is_correct` | Boolean: whether response matches target |
-| `timestamp` | Annotation timestamp |
+
 
 
 ### 7.2 Aggregated Data Format
