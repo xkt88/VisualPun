@@ -265,8 +265,8 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 |  | MLLM Correct | MLLM Incorrect |
 |--|--------------|----------------|
-| **Human Majority Correct** | 77 | 7 |
-| **Human Majority Incorrect** | 3 | 13 |
+| **Human Majority Correct** | 76 | 8 |
+| **Human Majority Incorrect** | 4 | 12 |
 
 
 
