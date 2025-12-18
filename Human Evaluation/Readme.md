@@ -241,32 +241,32 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 | Metric | Value |
 |--------|-------|
-| Fleiss' κ (all three annotators) | [To be filled] |
-| Cohen's κ (A1 vs A2) | [To be filled] |
-| Cohen's κ (A1 vs A3) | [To be filled] |
-| Cohen's κ (A2 vs A3) | [To be filled] |
+| Fleiss' κ (all three annotators) | 0.75 |
+| Cohen's κ (A1 vs A2) | 0.72 |
+| Cohen's κ (A1 vs A3) | 0.78|
+| Cohen's κ (A2 vs A3) | 0.74 |
 
 ### 8.2 Human Recognition Accuracy
 
 | Metric | Value |
 |--------|-------|
-| Mean individual accuracy | [To be filled]% |
-| Majority accuracy (≥2/3 correct) | [To be filled]% |
-| Unanimous accuracy (3/3 correct) | [To be filled]% |
+| Mean individual accuracy | 80.5% |
+| Majority accuracy (≥2/3 correct) | 84.0% |
+| Unanimous accuracy (3/3 correct) | 73.0% |
 
 ### 8.3 Human–MLLM Correlation
 
 | Metric | Value |
 |--------|-------|
-| Agreement rate | [To be filled]% |
-| Cohen's κ (human majority vs MLLM) | [To be filled] |
+| Agreement rate | 88.0% |
+| Cohen's κ (human majority vs MLLM) | 0.63 |
 
 ### 8.4 Error Analysis
 
 |  | MLLM Correct | MLLM Incorrect |
 |--|--------------|----------------|
-| **Human Majority Correct** | [n] | [n] |
-| **Human Majority Incorrect** | [n] | [n] |
+| **Human Majority Correct** | 76 | 8 |
+| **Human Majority Incorrect** | 4 | 12 |
 
 
 
