@@ -3,7 +3,7 @@
 
 ## Overview
 
-This document describes the human evaluation protocol used to validate the automatic **GPT-5** evaluation metric in our visual pun generation framework. [cite_start]As the best-performing MLLM in our experiments[cite: 8, 112], **GPT-5** is used here to assess whether human judgments of idiom recognition align with our automatic pipeline.
+This document describes the human evaluation protocol used to validate the automatic **GPT-5** evaluation metric in our visual pun generation framework. As the best-performing MLLM in our experiments, **GPT-5** is used here to assess whether human judgments of idiom recognition align with our automatic pipeline.
 
 ## 1. Sample Selection
 
