@@ -57,7 +57,8 @@ Annotators are shown an image and asked to identify which idiom the image repres
 
 The updated Idiom Annotator interface provides a split-view workspace designed for high-efficiency labeling and easy dataset navigation.
 
-![屏幕截图_18-12-2025_105915_](https://github.com/user-attachments/assets/c5f53576-f5cb-42c1-817d-56396731d22e)
+<img width="1819" height="974" alt="interface" src="https://github.com/user-attachments/assets/f4256d48-de47-4463-b7e4-221e094db30c" />
+
 
 
 The interface consists of the following components:
