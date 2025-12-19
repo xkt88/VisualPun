@@ -234,10 +234,10 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 | Metric | Value |
 | --- | --- |
-| Fleiss' κ (all three annotators) | 0.74 |
-| Cohen's κ (A1 vs A2) | 0.72 |
-| Cohen's κ (A1 vs A3) | 0.77 |
-| Cohen's κ (A2 vs A3) | 0.73 |
+| Fleiss' κ (all three annotators) | 0.78 |
+| Cohen's κ (A1 vs A2) | 0.73 |
+| Cohen's κ (A1 vs A3) | 0.86 |
+| Cohen's κ (A2 vs A3) | 0.76 |
 
 ### 8.2 Human Recognition Accuracy
 
@@ -254,7 +254,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | Agreement rate | 86.0% |
 | Cohen's κ (human majority vs **GPT-5**) | 0.65 |
 
-**GPT-5** based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.61, 85% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
+**GPT-5** based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.65, 86% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
 
 ### 8.4 Error Analysis
 
