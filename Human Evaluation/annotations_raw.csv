@@ -1,0 +1,301 @@
+image_id,target_idiom,annotator_id,response_raw,is_correct
+6,a bite at the cherry,A1,bite at the cherry,1
+6,a bite at the cherry,A2,a bite at the cherry,1
+6,a bite at the cherry,A3,taking a bite at the cherry,1
+25,a pot of gold at the end of the rainbow,A1,pot of gold at the end of the rainbow,1
+25,a pot of gold at the end of the rainbow,A2,the pot of gold at the end of the rainbow,1
+25,a pot of gold at the end of the rainbow,A3,a pot of gold at the rainbow's end,1
+27,a rolling stone gathers no moss,A1,rolling stone gathers no moss,1
+27,a rolling stone gathers no moss,A2,stone's throw away,0
+27,a rolling stone gathers no moss,A3,a rolling stone gathers no moss,1
+30,a snake in the grass,A1,snake in the grass,1
+30,a snake in the grass,A2,a snake in the grass,1
+30,a snake in the grass,A3,the snake in the grass,1
+32,a snowball's chance in hell,A1,snowball effect,0
+32,a snowball's chance in hell,A2,throwing snowballs,0
+32,a snowball's chance in hell,A3,snowed under,0
+44,achilles' heel,A1,the achilles heel,1
+44,achilles' heel,A2,achilles' heel,1
+44,achilles' heel,A3,an achilles heel,1
+46,acquired taste,A1,an acquired taste,1
+46,acquired taste,A2,acquired taste,1
+46,acquired taste,A3,it's an acquired taste,1
+71,all roads lead to rome,A1,all roads lead to Rome,1
+71,all roads lead to rome,A2,roads lead to Rome,1
+71,all roads lead to rome,A3,Rome wasn't built in a day,0
+80,an eye for an eye,A1,eye for an eye,1
+80,an eye for an eye,A2,an eye for an eye,1
+80,an eye for an eye,A3,eye for an eye makes the world blind,1
+81,an offer one can't refuse,A1,make an offer,0
+81,an offer one can't refuse,A2,on offer,0
+81,an offer one can't refuse,A3,special offer,0
+89,apples and oranges,A1,comparing apples and oranges,1
+89,apples and oranges,A2,apples and oranges,1
+89,apples and oranges,A3,like apples and oranges,1
+94,as cold as ice,A1,cold as ice,1
+94,as cold as ice,A2,as cold as ice,1
+94,as cold as ice,A3,it's cold as ice,1
+95,as easy as pie,A1,easy as pie,1
+95,as easy as pie,A2,as easy as pie,1
+95,as easy as pie,A3,it is easy as pie,1
+99,as pale as death,A1,pale as death,1
+99,as pale as death,A2,as pale as death,1
+99,as pale as death,A3,looked pale as death,1
+103,as the crow flies,A1,eat crow,0
+103,as the crow flies,A2,crow about it,0
+103,as the crow flies,A3,stone the crows,0
+104,at death's door,A1,standing at death's door,1
+104,at death's door,A2,at death's door,1
+104,at death's door,A3,is at death's door,1
+114,back to square one,A1,go back to square one,1
+114,back to square one,A2,back to square one,1
+114,back to square one,A3,going back to square one,1
+127,be a barrel of laughs,A1,barrel of laughs,1
+127,be a barrel of laughs,A2,a barrel of laughs,1
+127,be a barrel of laughs,A3,be a barrel of laughs,1
+142,beauty is only skin deep,A1,beauty is skin deep,1
+142,beauty is only skin deep,A2,beauty is only skin deep,1
+142,beauty is only skin deep,A3,beauty's only skin deep,1
+159,big wheel,A1,reinvent the wheel,0
+159,big wheel,A2,third wheel,0
+159,big wheel,A3,wheel and deal,0
+163,birds of a feather flock together,A1,birds of a feather,1
+163,birds of a feather flock together,A2,birds of a feather flock together,1
+163,birds of a feather flock together,A3,birds of a feather flocking together,1
+166,bite the hand that feeds you,A1,biting the hand that feeds you,1
+166,bite the hand that feeds you,A2,bite the hand that feeds you,1
+166,bite the hand that feeds you,A3,don't bite the hand that feeds you,1
+196,break the ice,A1,breaking the ice,1
+196,break the ice,A2,tip of the iceberg,0
+196,break the ice,A3,break the ice,1
+203,bucket list,A1,the bucket list,1
+203,bucket list,A2,bucket list,1
+203,bucket list,A3,a bucket list,1
+214,butterflies in the stomach,A1,social butterfly,0
+214,butterflies in the stomach,A2,butterfly effect,0
+214,butterflies in the stomach,A3,float like a butterfly,0
+220,by the book,A1,go by the book,1
+220,by the book,A2,by the book,1
+220,by the book,A3,playing by the book,1
+223,call the shots,A1,calling the shots,1
+223,call the shots,A2,call the shots,1
+223,call the shots,A3,who calls the shots,1
+225,can¡¯t swing a dead cat in ,A1,can't swing a dead cat in,1
+225,can¡¯t swing a dead cat in ,A2,cannot swing a dead cat in,1
+225,can¡¯t swing a dead cat in ,A3,couldn't swing a dead cat in,1
+228,carry the can,A1,carrying the can,1
+228,carry the can,A2,carry the can,1
+228,carry the can,A3,to carry the can,1
+233,Cat got your tongue?,A1,let the cat out of the bag,0
+233,Cat got your tongue?,A2,curiosity killed the cat,0
+233,Cat got your tongue?,A3,raining cats and dogs,0
+238,catch some z's,A1,catching some z's,1
+238,catch some z's,A2,catch some z's,1
+238,catch some z's,A3,catching a few z's,1
+250,chew the fat,A1,chewing the fat,1
+250,chew the fat,A2,chew the fat,1
+250,chew the fat,A3,to chew the fat,1
+270,cock and bull story,A1,take the bull by the horns,0
+270,cock and bull story,A2,cock and bull story,1
+270,cock and bull story,A3,a cock and bull story,1
+281,cook someone's goose,A1,cook his goose,1
+281,cook someone's goose,A2,cook someone's goose,1
+281,cook someone's goose,A3,cooking one's goose,1
+284,cool as a cucumber,A1,cool your heels,0
+284,cool as a cucumber,A2,lose one's cool,0
+284,cool as a cucumber,A3,keep one's cool,0
+296,crossing the rubicon,A1,cross the rubicon,1
+296,crossing the rubicon,A2,crossing the rubicon,1
+296,crossing the rubicon,A3,crossed the rubicon,1
+300,cry one's eyes out,A1,crying one's eyes out,1
+300,cry one's eyes out,A2,cry your eyes out,1
+300,cry one's eyes out,A3,crying her eyes out,1
+344,dutch courage,A1,some dutch courage,1
+344,dutch courage,A2,dutch courage,1
+344,dutch courage,A3,a little dutch courage,1
+348,early bird catches the worm,A1,the early bird catches the worm,1
+348,early bird catches the worm,A2,early bird catches the worm,1
+348,early bird catches the worm,A3,early bird gets the worm,1
+352,elbow grease,A1,rub elbows,0
+352,elbow grease,A2,up to my elbows,0
+352,elbow grease,A3,elbow room,0
+363,extend an olive branch,A1,extending an olive branch,1
+363,extend an olive branch,A2,extend an olive branch,1
+363,extend an olive branch,A3,holding out an olive branch,1
+367,fall on deaf ears,A1,falling on deaf ears,1
+367,fall on deaf ears,A2,fall on deaf ears,1
+367,fall on deaf ears,A3,fell on deaf ears,1
+370,fat cat,A1,a fat cat,1
+370,fat cat,A2,fat cat,1
+370,fat cat,A3,the fat cat,1
+373,feeling blue,A1,feel blue,1
+373,feeling blue,A2,feeling blue,1
+373,feeling blue,A3,feeling a bit blue,1
+379,fight tooth and nail,A1,fighting tooth and nail,1
+379,fight tooth and nail,A2,long in the tooth,0
+379,fight tooth and nail,A3,fighting tooth and nail,1
+387,five-finger discount,A1,give someone the finger,0
+387,five-finger discount,A2,lift a finger,0
+387,five-finger discount,A3,wrapped around one's finger,0
+389,flat out like a lizard drinking,A1,flat out like a lizard,1
+389,flat out like a lizard drinking,A2,flat out like a lizard drinking,1
+389,flat out like a lizard drinking,A3,lying flat out like a lizard drinking,1
+429,go under the knife,A1,going under the knife,1
+429,go under the knife,A2,go under the knife,1
+429,go under the knife,A3,went under the knife,1
+432,grasping at straws,A1,grasp at straws,1
+432,grasping at straws,A2,grasping at straws,1
+432,grasping at straws,A3,clutching at straws,1
+459,"have one's cake and eat it, too",A1,piece of cake,0
+459,"have one's cake and eat it, too",A2,have your cake and eat it too,1
+459,"have one's cake and eat it, too",A3,takes the cake,0
+464,head in the clouds,A1,on cloud nine,0
+464,head in the clouds,A2,every cloud has a silver lining,0
+464,head in the clouds,A3,under a cloud,0
+470,hit the bullseye,A1,hitting the bullseye,1
+470,hit the bullseye,A2,hit the bullseye,1
+470,hit the bullseye,A3,hit the bull's eye,1
+517,just what the doctor ordered,A1,what the doctor ordered,1
+517,just what the doctor ordered,A2,just what the doctor ordered,1
+517,just what the doctor ordered,A3,exactly what the doctor ordered,1
+549,loaded for bear,A1,loaded for bears,1
+549,loaded for bear,A2,loaded for bear,1
+549,loaded for bear,A3,being loaded for bear,1
+558,make hay while the sun shines,A1,hit the hay,0
+558,make hay while the sun shines,A2,needle in a haystack,0
+558,make hay while the sun shines,A3,that ain't hay,0
+565,miss the mark,A1,missing the mark,1
+565,miss the mark,A2,miss the mark,1
+565,miss the mark,A3,missed the mark,1
+574,nail-biter,A1,a nail-biter,1
+574,nail-biter,A2,nail-biter,1
+574,nail-biter,A3,it's a nail-biter,1
+591,old as the hills,A1,as old as the hills,1
+591,old as the hills,A2,old as the hills,1
+591,old as the hills,A3,over the hill,0
+603,over the moon,A1,be over the moon,1
+603,over the moon,A2,over the moon,1
+603,over the moon,A3,I'm over the moon,1
+604,Over-egg the pudding,A1,proof is in the pudding,0
+604,Over-egg the pudding,A2,walking on eggshells,0
+604,Over-egg the pudding,A3,nest egg,0
+616,peaches and cream,A1,peaches & cream,1
+616,peaches and cream,A2,peaches and cream,1
+616,peaches and cream,A3,it's all peaches and cream,1
+618,pedal to the metal,A1,put the pedal to the metal,1
+618,pedal to the metal,A2,pedal to the metal,1
+618,pedal to the metal,A3,put pedal to the metal,1
+633,point the finger,A1,pointing the finger,1
+633,point the finger,A2,point the finger,1
+633,point the finger,A3,pointing fingers,1
+643,pull a rabbit out of a hat,A1,pulling a rabbit out of a hat,1
+643,pull a rabbit out of a hat,A2,go down the rabbit hole,0
+643,pull a rabbit out of a hat,A3,pull a rabbit out of the hat,1
+650,puppy love,A1,let sleeping dogs lie,0
+650,puppy love,A2,dog eat dog,0
+650,puppy love,A3,in the doghouse,0
+654,put down roots,A1,putting down roots,1
+654,put down roots,A2,put down roots,1
+654,put down roots,A3,putting down some roots,1
+665,put your foot in your mouth,A1,put one's foot in one's mouth,1
+665,put your foot in your mouth,A2,put your foot in your mouth,1
+665,put your foot in your mouth,A3,putting your foot in your mouth,1
+677,read the tea leaves,A1,reading the tea leaves,1
+677,read the tea leaves,A2,read the tea leaves,1
+677,read the tea leaves,A3,reading tea leaves,1
+686,ring a bell,A1,saved by the bell,0
+686,ring a bell,A2,with bells on,0
+686,ring a bell,A3,sound as a bell,0
+692,rock the boat,A1,rocking the boat,1
+692,rock the boat,A2,rock the boat,1
+692,rock the boat,A3,don't rock the boat,1
+714,seize the day,A1,seizing the day,1
+714,seize the day,A2,seize the day,1
+714,seize the day,A3,to seize the day,1
+718,set the bar (too) high,A1,set the bar high,1
+718,set the bar (too) high,A2,setting the bar high,1
+718,set the bar (too) high,A3,set the bar too high,1
+721,shadow of doubt,A1,afraid of one's own shadow,0
+721,shadow of doubt,A2,beyond a shadow of a doubt,1
+721,shadow of doubt,A3,without a shadow of a doubt,1
+733,shoot oneself in the foot,A1,shot oneself in the foot,1
+733,shoot oneself in the foot,A2,shoot yourself in the foot,1
+733,shoot oneself in the foot,A3,shooting oneself in the foot,1
+747,sink or swim,A1,everything but the kitchen sink,0
+747,sink or swim,A2,sinking ship,0
+747,sink or swim,A3,heart sank,0
+754,sleep like a baby,A1,sleeping like a baby,1
+754,sleep like a baby,A2,sleep like a baby,1
+754,sleep like a baby,A3,slept like a baby,1
+758,slip someone a mickey,A1,slip a mickey,1
+758,slip someone a mickey,A2,slipping someone a mickey,1
+758,slip someone a mickey,A3,slip someone a mickey,1
+759,slippery slope,A1,a slippery slope,1
+759,slippery slope,A2,slippery slope,1
+759,slippery slope,A3,it's a slippery slope,1
+777,speak your mind,A1,speak of the devil,0
+777,speak your mind,A2,actions speak louder than words,0
+777,speak your mind,A3,so to speak,0
+781,spin one's wheels,A1,spinning one's wheels,1
+781,spin one's wheels,A2,spin your wheels,1
+781,spin one's wheels,A3,spinning wheels,1
+791,steal someone's thunder,A1,stealing someone's thunder,1
+791,steal someone's thunder,A2,steal someone's thunder,1
+791,steal someone's thunder,A3,stole my thunder,1
+825,take something with a grain of salt,A1,take it with a grain of salt,1
+825,take something with a grain of salt,A2,take with a grain of salt,1
+825,take something with a grain of salt,A3,with a grain of salt,1
+826,take the bull by the horns,A1,taking the bull by the horns,1
+826,take the bull by the horns,A2,bull in a china shop,0
+826,take the bull by the horns,A3,take the bull by the horns,1
+828,take the fifth,A1,fifth wheel,0
+828,take the fifth,A2,take five,0
+828,take the fifth,A3,fifth gear,0
+849,the birds and the bees,A1,birds and the bees,1
+849,the birds and the bees,A2,the birds and the bees,1
+849,the birds and the bees,A3,about the birds and the bees,1
+854,the icing on the cake,A1,icing on the cake,1
+854,the icing on the cake,A2,the icing on the cake,1
+854,the icing on the cake,A3,it's the icing on the cake,1
+867,the time is ripe,A1,time is ripe,1
+867,the time is ripe,A2,the time is ripe,1
+867,the time is ripe,A3,time is ripe for,1
+875,third rail,A1,the third rail,1
+875,third rail,A2,third rail,1
+875,third rail,A3,a third rail,1
+882,throw a wrench into (something),A1,throw in the towel,0
+882,throw a wrench into (something),A2,throw the book at,0
+882,throw a wrench into (something),A3,throw shade,0
+887,throw someone for a loop,A1,throwing someone for a loop,1
+887,throw someone for a loop,A2,throw someone for a loop,1
+887,throw someone for a loop,A3,thrown for a loop,1
+890,tie the knot,A1,tying the knot,1
+890,tie the knot,A2,tie the knot,1
+890,tie the knot,A3,tied the knot,1
+906,too many chiefs and not enough indians,A1,"too many chiefs, not enough indians",1
+906,too many chiefs and not enough indians,A2,"too many chiefs and not enough indians",1
+906,too many chiefs and not enough indians,A3,too many chiefs,1
+913,touch base,A1,touching base,1
+913,touch base,A2,touch base,1
+913,touch base,A3,to touch base,1
+947,upset the apple cart,A1,apple of my eye,0
+947,upset the apple cart,A2,one bad apple,0
+947,upset the apple cart,A3,apples to apples,0
+954,waiting in the wings,A1,wait in the wings,1
+954,waiting in the wings,A2,waiting in the wings,1
+954,waiting in the wings,A3,waited in the wings,1
+964,water under the bridge,A1,it's water under the bridge,1
+964,water under the bridge,A2,water under the bridge,1
+964,water under the bridge,A3,that's water under the bridge,1
+978,"when it rains, it pours",A1,right as rain,0
+978,"when it rains, it pours",A2,when it rains it pours,1
+978,"when it rains, it pours",A3,"when it rains, it pours",1
+983,"where there's smoke, there's fire",A1,no smoke without fire,1
+983,"where there's smoke, there's fire",A2,"where there's smoke, there's fire",1
+983,"where there's smoke, there's fire",A3,there is no smoke without fire,1
+986,white smoke ,A1,smoke and mirrors,0
+986,white smoke ,A2,white smoke,1
+986,white smoke ,A3,go up in smoke,0
+990,window dressing,A1,window of opportunity,0
+990,window dressing,A2,out the window,0
+990,window dressing,A3,window shopping,0
