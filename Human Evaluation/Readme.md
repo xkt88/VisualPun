@@ -224,8 +224,7 @@ Summary statistics are provided in `annotations_summary.csv`:
 | `target_idiom` | Ground truth idiom string |
 | `num_correct` | Number of annotators who identified correctly (0-3) |
 | `majority_correct` | Boolean: ≥2 annotators correct |
-| `gpt5_correct` | Boolean: **GPT-5** automatic evaluation result |
-| `human_gpt5_agree` | Boolean: majority vote matches **GPT-5** |
+
 
 ## 8. Results
 
