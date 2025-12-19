@@ -212,7 +212,6 @@ All responses are recorded in `annotations_raw.csv`:
 | `target_idiom` | Ground truth idiom string |
 | `annotator_id` | Annotator identifier (A1/A2/A3) |
 | `response_raw` | Annotator's original response |
-| `response_normalized` | Response after canonicalization |
 | `is_correct` | Boolean: whether response matches target |
 
 ### 7.2 Aggregated Data Format
