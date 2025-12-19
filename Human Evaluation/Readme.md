@@ -243,16 +243,16 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 | Metric | Value |
 | --- | --- |
-| Mean individual accuracy | 75.7% |
-| Majority accuracy (≥2/3 correct) | 79.0% |
+| Mean individual accuracy | 75.3% |
+| Majority accuracy (≥2/3 correct) | 78.0% |
 | Unanimous accuracy (3/3 correct) | 68.0% |
 
 ### 8.3 Human–GPT-5 Correlation
 
 | Metric | Value |
 | --- | --- |
-| Agreement rate | 85.0% |
-| Cohen's κ (human majority vs **GPT-5**) | 0.61 |
+| Agreement rate | 86.0% |
+| Cohen's κ (human majority vs **GPT-5**) | 0.65 |
 
 **GPT-5** based automatic evaluation shows substantial agreement with human annotators (Cohen's κ = 0.61, 85% agreement), validating its use as a scalable proxy for human judgment in idiom recognition tasks.
 
@@ -260,8 +260,8 @@ Summary statistics are provided in `annotations_summary.csv`:
 
 |  | **GPT-5** Correct | **GPT-5** Incorrect |
 | --- | --- | --- |
-| **Human Majority Correct** | 66 | 13 |
-| **Human Majority Incorrect** | 2 | 19 |
+| **Human Majority Correct** | 66 | 12 |
+| **Human Majority Incorrect** | 2 | 20 |
 
 Note: The 68% total accuracy for **GPT-5** observed in this 100-image subset reflects a specific random sample of our 1,000-idiom benchmark.
 
