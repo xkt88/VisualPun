@@ -118,14 +118,6 @@ The pipeline uses four prompt templates corresponding to the modules in Figure 2
 | LLM (evaluation) | ~50 | ~5 | ~$0.0005 |
 | MLLM (update) | ~150 + image | ~60 | ~$0.008 |
 
-### Total Experiment Cost
-
-| Experiment | Idioms | Avg. Iterations | Est. Total Cost |
-|------------|--------|-----------------|-----------------|
-| Main (Table 1): 10 LLMs × 10 MLLMs | 1,000 | ~2.8 | ~$12,000 |
-| Ablation (Table 3): 1 LLM × 10 MLLMs | 1,000 | 1–5 | ~$1,500 |
-| Case study: 6 T2IMs × 50 idioms | 50 | 1 | ~$50 |
-| **Full reproduction** | — | — | **~$14,000** |
 
 ### Runtime
 
