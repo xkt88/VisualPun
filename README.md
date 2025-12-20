@@ -42,8 +42,13 @@ Tips
 - Iterative refinement helps most within 2–3 rounds, with diminishing returns thereafter.
 
 
+## Prompt template
+prompt ...
 
-case study Images
+## Cost
+cost
+
+## case study Images
 
 ![WPS拼图0(1)(1)](https://github.com/user-attachments/assets/800f6a82-efd6-4667-8203-3b84c8dd680f)
 ![WPS拼图1(1)(1)](https://github.com/user-attachments/assets/f3f74cc9-bf63-4784-a4d0-4406ed811523)
