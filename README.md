@@ -127,5 +127,7 @@ The pipeline uses four prompt templates corresponding to the modules in Figure 2
 
 *Note: Costs are estimates based on API pricing as of August 2025 and may vary with provider rate changes.*
 
+## Case Study
+
 ![WPS拼图0(1)(1)](https://github.com/user-attachments/assets/800f6a82-efd6-4667-8203-3b84c8dd680f)
 ![WPS拼图1(1)(1)](https://github.com/user-attachments/assets/f3f74cc9-bf63-4784-a4d0-4406ed811523)
