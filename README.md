@@ -7,8 +7,8 @@ This repository accompanies the paper "Visual Puns from Idioms: An Iterative LLM
 - `2 Case Study.ipynb` — reproduces the case‑study comparisons across multiple T2IMs on a curated idiom subset.  
 - `img/` — 1,000 images generated from 1,000 idioms (one per idiom in the final set).  
 - `Idioms/` — JSON with idioms and their corresponding descriptions.  
-- `case study/` — outputs for the 50‑idiom case study spanning 6 T2IMs (images and prompts).
-
+- `Case study/` — outputs for the 50‑idiom case study spanning 6 T2IMs (images and prompts).
+- `Human Evaluation/` — Human evaluation protocols and results.
 ## Quick start
 1) Open in Jupyter (Notebook/Lab) or Colab.  
 2) Provide API access to:
